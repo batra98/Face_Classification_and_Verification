@@ -53,6 +53,7 @@ There are 5 compoments of the assignments, results of which are summarised below
 Eigen Faces are the set of eigen-vectors of the covariance-matrix of face images that are used in the problem of human face recognition.
 
 #### How many eigen vectors/faces are required to reconstruct a person in the three datasets?
+Eigen-Value Spectrum for the datasets
 ![Eigen-Value Spectrum for the datasets](./assets/eig_compare.png)
 
 - We use the following equation to calculate the number of eigen-vectors (<img src="https://render.githubusercontent.com/render/math?math=k">) with reasonable accuracy <img src="https://render.githubusercontent.com/render/math?math=\epsilon">.
@@ -154,8 +155,14 @@ where <img src="https://render.githubusercontent.com/render/math?math=\epsilon =
 
 
 ### t-SNE Based Visualiation of the datasets.
+
+Indian Movie Face Database
 ![Indian Movie Face Database](./assets/tsne_imfdb.png)
+
+IIIT Cartoon Face Dataset
 ![IIIT Cartoon Face Dataset](./assets/tsne_iiit.png)
+
+Yale Face Dataset
 ![Yale Face Dataset](./assets/tsne_yale.png)
 
 ### Gender Classification using a combination of IIIT-CFW and IMFDB datasets.
