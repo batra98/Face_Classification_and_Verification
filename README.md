@@ -168,5 +168,5 @@ Yale Face Dataset
 ### Gender Classification using a combination of IIIT-CFW and IMFDB datasets.
 Took a combination of IIIT-CFW and IMFDB datasets and tried to classify the face as male/female.Basically, the problem is a binary classification problem of Gender Determination.
 
-- Results of the various experiments are mentioned in the [Report](./20171114_Report.pdfs)
+- Results of the various experiments are mentioned in the [Report](./20171114_Report.pdf)
 
