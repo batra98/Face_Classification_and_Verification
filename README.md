@@ -1,3 +1,8 @@
+<script type="text/javascript"
+src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js? 
+config=TeX-MML-AM_CHTML"
+</script>
+
 <p align="center">
   <h1 align="center">Face Classification and Verification</h1>
 </p>
@@ -55,8 +60,12 @@ Eigen Faces are the set of eigen-vectors of the covariance-matrix of face images
 ### How many eigen vectors/faces are required to reconstruct a person in the three datasets?
 ![Eigen-Value Spectrum for the datasets](./assets/eig_compare.png)
 
-- We use the following equation to calculate the number of eigen-vectors ($k$) with reasonable accuracy $\epsilon$.
+- We use the following equation to calculate the number of eigen-vectors ($$k$$) with reasonable accuracy $$\epsilon$$.
 
-<center><img src="https://latex.codecogs.com/svg.latex?\dpi{200}&space;\large&space;\frac{\sum_{i&space;\in&space;[k]}&space;\lambda_i}{\sum_{i&space;\in&space;[j]}&space;\lambda_i}&space;\geq&space;\epsilon" title="\large \frac{\sum_{i \in [k]} \lambda_i}{\sum_{i \in [j]} \lambda_i} \geq \epsilon" /></center>
+
+$$x_{1,2} = \frac{-b \pm \sqrt{b^2-4ac}}{2b}.$$
+<p align="center">
+	<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+</p>
 
 where $\epsilon = 0.9$ and $[k]$ is the set of selected eigen-vectors and $[j]$ is the set of all eigen-vectors.
